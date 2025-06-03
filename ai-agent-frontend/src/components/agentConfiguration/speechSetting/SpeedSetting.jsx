@@ -49,6 +49,7 @@ const SpeedSetting = () => {
                        {speedConfig.map((noise) => {
                          return (
                            <Chip
+                           key={noise.id}
                              id={noise.id}
                              label={noise.label}
                              isSelected={noise.isSelected}

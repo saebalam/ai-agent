@@ -53,7 +53,7 @@ const ConfigurationForm = () => {
     >
       <div className="w-full flex items-center justify-between">
         <h1 className="text-[24px] font-[600]">General Configuration</h1>
-        <img src="icons/ic_close.svg" width={16} height={16} />
+        <img src="icons/ic_close.svg" alt='close' width={16} height={16} />
       </div>
       <p>Choose how you'd like to start building your agent.</p>
 

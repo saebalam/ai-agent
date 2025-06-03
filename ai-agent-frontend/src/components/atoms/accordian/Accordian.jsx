@@ -19,6 +19,7 @@ const Accordian = ({ id, title, img,head, children, isPreopened, handleSelect })
         >
           <img
             src="/icons/ic_chevron.svg"
+            alt='arrow'
             width={28}
             height={28}
             className={`${isOpen ? "rotate-180" : ""}`}

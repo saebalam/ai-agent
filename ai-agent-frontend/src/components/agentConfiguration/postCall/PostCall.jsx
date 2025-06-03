@@ -4,7 +4,7 @@ import Accordian from "../../atoms/accordian/Accordian";
 const PostCall = ({ id, isOpen, handleSelect }) => {
   const AccordianHead = (
     <div className="flex items-center gap-3">
-      <img src="/icons/ic_pc.svg" width={40} height={40} />
+      <img src="/icons/ic_pc.svg" alt='pc' width={40} height={40} />
       Post Call
     </div>
   );

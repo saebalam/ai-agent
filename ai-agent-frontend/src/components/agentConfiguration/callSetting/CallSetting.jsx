@@ -4,7 +4,7 @@ import Accordian from "../../atoms/accordian/Accordian";
 const CallSetting = ({ id, isOpen, handleSelect }) => {
     const AccordianHead = (
         <div className="flex items-center gap-3">
-          <img src="/icons/ic_call.svg" width={40} height={40} />
+          <img src="/icons/ic_call.svg" alt='phone' width={40} height={40} />
           Call Settings
         </div>
       );
