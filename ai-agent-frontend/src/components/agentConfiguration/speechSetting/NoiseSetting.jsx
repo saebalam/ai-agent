@@ -26,7 +26,7 @@ const NoiseSetting = () => {
   const handleNoiseSelect = (selectedId) => {
     const copied = [...noiseConfig];
     const updated = copied.map((each) => {
-      if (each.id == selectedId) {
+      if (each.id === selectedId) {
         return { ...each, isSelected: true };
       } else {
         return { ...each, isSelected: false };

@@ -28,7 +28,7 @@ const SpeedSetting = () => {
       const handleSpeedSelect = (selectedId) => {
         const copied = [...speedConfig];
         const updated = copied.map((each) => {
-          if (each.id == selectedId) {
+          if (each.id === selectedId) {
             return { ...each, isSelected: true };
           } else {
             return { ...each, isSelected: false };

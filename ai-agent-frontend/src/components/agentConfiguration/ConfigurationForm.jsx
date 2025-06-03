@@ -37,7 +37,7 @@ const ConfigurationForm = () => {
   const handleSelect = (selectedId) => {
     const copied = [...tabConfig];
     const updated = copied.map((each) => {
-      if (each.id == selectedId) {
+      if (each.id === selectedId) {
         return { ...each, isSelected: !each.isSelected };
       } else {
         return { ...each, isSelected: false };
